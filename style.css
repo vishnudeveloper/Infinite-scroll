@@ -1,0 +1,17 @@
+img {
+  width: 70%;
+  height: auto;
+  border: 3px solid tomato;
+  border-radius: 50%;
+} 
+
+#photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+#photos li {
+  list-style: none;
+}
